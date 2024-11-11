@@ -98,9 +98,6 @@ int main() {
         // Print the received data
         printf("Received new data:\n");
 
-        // Display the integer field correctly
-        printf("Integer field: %d\n", received_data.number);
-
         // Print each string in the array of strings
         displayData(&received_data);
 

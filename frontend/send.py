@@ -68,22 +68,26 @@ class MyWindow(QWidget):
         integer_value = self.integer_input.value()
         string_value = self.string_input.text()
         array_of_strings = []
-        for i in range(min(self.array_input.count(), 5)):
-            array_of_strings.append(self.array_input.item(i).text())
+        array_of_strings = [self.array_input.item(i).text() for i in range(self.array_input.count())]
+        while len(array_of_strings) < ARRAY_SIZE:
+                array_of_strings.append("")
+        array_of_strings = array_of_strings[:ARRAY_SIZE]
         data = {
             'string_array': array_of_strings,
             'single_string': string_value,
             'number': integer_value
         }
-        format_string = f'{ARRAY_SIZE * MAX_STRING_LEN}s{MAX_STRING_LEN}sI'
+        print("Packing the following data:")
+        print(f"String Array: {data['string_array']}")
+        print(f"Single String: {data['single_string']}")
+        print(f"Integer: {data['number']}")
         packed_data = b''
         for s in data['string_array']:
             packed_data += self.pad_string(s, MAX_STRING_LEN)
         packed_data += self.pad_string(data['single_string'], MAX_STRING_LEN)
         packed_data += struct.pack('I', data['number'])
-        print(packed_data)
+        print("Packed Data:", packed_data)
         app.start_client_thread(packed_data)
-
 if __name__ == '__main__':
     app = MyApp()
     sys.exit(app.app.exec_())

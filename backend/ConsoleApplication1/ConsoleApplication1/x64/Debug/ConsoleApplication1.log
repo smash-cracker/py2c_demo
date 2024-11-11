@@ -1,1 +1,5 @@
-﻿  ConsoleApplication1.vcxproj -> C:\Users\denny\Documents\data_structure\backend\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+﻿  ConsoleApplication1.c
+C:\Users\denny\Documents\data_structure\backend\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(47,17): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\denny\Documents\data_structure\backend\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(74,17): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\denny\Documents\data_structure\backend\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(106,34): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  ConsoleApplication1.vcxproj -> C:\Users\denny\Documents\data_structure\backend\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
