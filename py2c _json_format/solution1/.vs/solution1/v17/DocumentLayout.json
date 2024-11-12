@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\solution1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26B965EB-CAA9-47DA-B676-5D7750619D42}|Emp_details\\Emp_details.vcxproj|C:\\Users\\DELL\\source\\repos\\solution1\\Emp_details\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{26B965EB-CAA9-47DA-B676-5D7750619D42}|Emp_details\\Emp_details.vcxproj|solutionrelative:Emp_details\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B965EB-CAA9-47DA-B676-5D7750619D42}|Emp_details\\Emp_details.vcxproj|C:\\Users\\DELL\\Desktop\\jsonfiles\\cJSON.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02A0F5E-25F4-4D45-BCB4-C1C1E354CE62}|Employee_details\\Employee_details.pyproj|C:\\Users\\DELL\\source\\repos\\solution1\\Employee_details\\Employee_details.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B02A0F5E-25F4-4D45-BCB4-C1C1E354CE62}|Employee_details\\Employee_details.pyproj|solutionrelative:Employee_details\\Employee_details.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B965EB-CAA9-47DA-B676-5D7750619D42}|Emp_details\\Emp_details.vcxproj|C:\\Users\\DELL\\Desktop\\jsonfiles\\cJSON.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cJSON.c",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\jsonfiles\\cJSON.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\jsonfiles\\cJSON.c",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\jsonfiles\\cJSON.c",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\jsonfiles\\cJSON.c",
+              "ViewState": "AgIAAKkLAAAAAAAAAAAhwLcLAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-12T05:33:31.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cJSON.h",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\jsonfiles\\cJSON.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\jsonfiles\\cJSON.h",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\jsonfiles\\cJSON.h",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\jsonfiles\\cJSON.h",
+              "ViewState": "AgIAALIAAAAAAAAAAAAhwMMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-12T08:56:18.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\solution1\\Emp_details\\main.c",
+              "RelativeDocumentMoniker": "Emp_details\\main.c",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\solution1\\Emp_details\\main.c",
+              "RelativeToolTip": "Emp_details\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-11T12:03:54.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee_details.py",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\solution1\\Employee_details\\Employee_details.py",
+              "RelativeDocumentMoniker": "Employee_details\\Employee_details.py",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\solution1\\Employee_details\\Employee_details.py",
+              "RelativeToolTip": "Employee_details\\Employee_details.py",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAhwBAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-11-11T12:01:08.781Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
