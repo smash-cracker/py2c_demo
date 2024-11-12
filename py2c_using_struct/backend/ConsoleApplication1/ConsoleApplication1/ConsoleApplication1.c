@@ -3,9 +3,8 @@
 #include <winsock2.h>
 #include <ws2tcpip.h>
 
-#define ARRAY_SIZE 3          // Maximum number of strings that can be handled
-#define MAX_STRING_LEN 20     // Maximum length of each string
-
+#define ARRAY_SIZE 3          
+#define MAX_STRING_LEN 20     
 #pragma comment(lib, "ws2_32.lib")
 
 typedef struct {
@@ -101,8 +100,6 @@ int main() {
 
         const char* ack_msg = "Data received successfully";
         send(client_fd, ack_msg, strlen(ack_msg), 0);
-
-        // Exit the loop after a single successful receive to prevent multiple reads.
         break;
     }
 
