@@ -1,2 +1,4 @@
 backend/ConsoleApplication1/.vs
 py2c_using_struct/backend/test
+py2c_using_struct/backend/send
+py2c_using_struct/frontend/test.py

@@ -8,6 +8,7 @@
 typedef int socklen_t;
 #else
 #include <unistd.h>
+#include "h/AbsRcvTxn.h"
 #include <arpa/inet.h>
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -16,14 +17,6 @@ typedef int socklen_t;
 typedef int SOCKET;
 #define closesocket close
 #endif
-#define ARRAY_SIZE 3
-#define MAX_STRING_LEN 20
-typedef struct
-{
-    char stringArray[ARRAY_SIZE][MAX_STRING_LEN];
-    char singleString[MAX_STRING_LEN];
-    int number;
-} Data;
 int main()
 {
 #ifdef _WIN32
@@ -79,10 +72,13 @@ int main()
         return 1;
     }
     printf("Client connected.\n");
-    Data send_data = {
-        .stringArray = {"Hello", "from", "C"},
-        .singleString = "Greetings!",
-        .number = htonl(1234)};
+    struct sRcvTdq1 send_data;
+    strncpy(send_data.cRaceNum, "01", sizeof(send_data.cRaceNum) - 1);
+    strncpy(send_data.cPoolId, "P01", sizeof(send_data.cPoolId) - 1);
+    strncpy(send_data.cHorseSeq, "H000000001", sizeof(send_data.cHorseSeq) - 1);
+    send_data.nUnits = htonl(1234);
+    send_data.fVal = 123.45f;
+    strncpy(send_data.cTktSts, "A", sizeof(send_data.cTktSts) - 1);
     send(client_fd, (char *)&send_data, sizeof(send_data), 0);
     printf("Data sent to client.\n");
     closesocket(client_fd);
